@@ -1,0 +1,23 @@
+# robots.txt for Reliable Water Tank Repair
+# Allow all search engines to crawl the website
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://reliablewatertankrepair.co.ke/sitemap.xml
+
+# Specific rules for search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Disallow crawling of unnecessary files/folders
+Disallow: /img/
+Disallow: /css/
+Disallow: /js/
+
+# Crawl delay to prevent server overload (in seconds)
+Crawl-delay: 1
