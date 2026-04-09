@@ -57,22 +57,23 @@
         <p class="fs-5 mb-4">For inquiries or service requests, please call us at <a href="tel:+254101046671" class="fw-bold text-primary">0101046671</a> or send us a message on WhatsApp. We provide fast, reliable water tank repair services throughout Kenya.</p>
         <div class="row">
             <div class="col-md-6">
-                <form>
+                <form action="mailto:info@watertankrepairkenya.co.ke" method="post" enctype="text/plain">
                     <div class="mb-3">
                         <label for="name" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
                     </div>
                     <div class="mb-3">
                         <label for="email" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com" required>
                     </div>
                     <div class="mb-3">
                         <label for="message" class="form-label">Message</label>
-                        <textarea class="form-control" id="message" rows="4" placeholder="Your message here..." required></textarea>
+                        <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your message here..." required></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Send Message</button>
                     <a href="https://wa.me/254101046671?text=Hi%20Reliable%20Water%20Tank%20Repair,%20I%20need%20your%20services" target="_blank" class="btn btn-success ms-2"><i class="fab fa-whatsapp me-1"></i>WhatsApp Us</a>
                 </form>
+                <p class="small text-muted mt-3 mb-0">For the fastest response, use WhatsApp or call directly. The email form opens your default mail app.</p>
             </div>
             <div class="col-md-6">
                 <h2 class="h4">Our Location</h2>
